@@ -26,7 +26,7 @@ body {
   padding: 16px;
   line-height: 1;
   font-size: 26px;
-  background-color: #ffe8cc;
+  background-color: #c3ecf8;
   border: none;
 }
 
@@ -79,7 +79,7 @@ header button {
 
 form {
   padding: 24px;
-  background-color: #fff4e6;
+  background-color: #f43d14;
   display: flex;
   gap: 24px;
   margin-bottom: 40px;
@@ -99,7 +99,7 @@ textarea,
 button {
   font-size: 16px;
   padding: 8px 12px;
-  border: 1px solid #ffe8cc;
+  border: 1px solid #ccf3ff;
   font-family: inherit;
   color: inherit;
 }
@@ -113,7 +113,7 @@ input {
 }
 
 *:focus {
-  outline: 2px solid #ffa94d;
+  outline: 2px solid #c3ecf8;
   border-radius: 2px;
 }
 
@@ -123,8 +123,8 @@ textarea {
 }
 
 button {
-  border: 1px solid #ffa94d;
-  background-color: #ffa94d;
+  border: 1px solid #759df3;
+  background-color: #759df3;
   font-weight: 700;
   padding: 9px 24px;
   cursor: pointer;
@@ -144,12 +144,12 @@ main ul {
 }
 
 main li {
-  border: 1px solid #ffe8cc;
+  border: 1px solid #759df3;
   padding: 16px 20px;
 }
 
 main li:hover {
-  background-color: #fff4e6;
+  background-color: #cce5ff;
 }
 
 aside ul {
@@ -161,7 +161,7 @@ aside ul {
 }
 
 aside li {
-  border: 1px solid #ffe8cc;
+  border: 1px solid #ccf3ff;
   padding: 4px 8px;
   display: flex;
   justify-content: space-between;
