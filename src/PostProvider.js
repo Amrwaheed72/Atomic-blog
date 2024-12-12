@@ -9,7 +9,7 @@ function createRandomPost() {
     };
 }
 
-function PostProvider({children}) {
+function PostProvider({ children }) {
     const [posts, setPosts] = useState(() =>
         Array.from({ length: 30 }, () => createRandomPost())
     );
@@ -46,9 +46,10 @@ function PostProvider({children}) {
     )
 }
 
-function usePosts(){
+function usePosts() {
     const context = useContext(PostContext)
+    if (context === undefined) throw new Error('PostContext was used outside the PostProvider')
     return context
 }
 
-export  {PostProvider,usePosts}
+export { PostProvider, usePosts }
